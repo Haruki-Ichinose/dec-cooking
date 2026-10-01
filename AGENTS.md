@@ -57,11 +57,3 @@ Sail / Docker 経由でコンテナ内の PHP を使うこと。
 
 - `.env` はコミットしない（`.env.example` を更新する）
 - `vendor/` `node_modules/` は追跡しない
-- `.DS_Store` は `.gitignore` に入っていないため untracked に出る。commit しない
-
-
-## commit message
-
-`種別：日本語の説明`（コロンは**全角**）。Conventional Commits に準拠する。
-種別が異なる変更は commit を分ける。
-**Claude / Codex の署名 trailer（`Co-Authored-By` 等）は付けない。**
